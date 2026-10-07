@@ -10,7 +10,7 @@ public class Amazoneg {
 		
 		System.out.println("Website ready to launch");
 		
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.com");
 
 	}
